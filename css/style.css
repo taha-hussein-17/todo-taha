@@ -1,0 +1,68 @@
+body {
+        text-transform: capitalize;
+        background-color: rgba(93, 175, 246, 0.568);
+    }
+
+    .container-fluid {
+        margin-top: 40px;
+        background-color: rgba(0, 0, 255, 0.024);
+        box-shadow: 4px 4px 5px;
+        padding-bottom: 20px;
+        border-radius: 15px;
+
+    }
+
+    ol {
+        margin-top: 10px;
+    }
+
+    ol li {
+        font-size: 20px;
+        font-weight: bold;
+        display: flex;
+        text-align: center;
+        margin: auto;
+        transition: 0.7s;
+        /* background-color: rgba(98, 52, 52, 0.047); */
+        display: block;
+        border: 0.2px solid rgba(98, 52, 52, 0.047);
+        margin-top: 50x;
+    }
+
+    ol li:hover {
+        transform: scale(1.03, 1.03);
+        transition: 0.7s;
+    }
+
+    .lable {
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .btn {
+        font-size: 18px;
+        font-weight: bold;
+        box-shadow: 3px 3px 4px;
+        border: none;
+        outline: none;
+    }
+
+    .btn:active {
+        border: none;
+        outline: none;
+    }
+
+    .span {
+        font-size: 12px;
+    }
+
+    #todo-text {
+        box-shadow: 2px 2px 3px;
+        border: none;
+        outline: none;
+    }
+
+    #todo-text::placeholder {
+        color: red;
+        font-weight: bold;
+    }
